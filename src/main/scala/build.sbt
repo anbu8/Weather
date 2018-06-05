@@ -1,0 +1,6 @@
+name := "retail"
+version := "1.0"
+scalaVersion := "2.10.6" 
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.6.2"  
+libraryDependencies += "joda-time" % "joda-time" % "2.10"
+libraryDependencies += "com.github.scala-incubator.io" %% "scala-io-file" % "0.4.2"
