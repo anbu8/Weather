@@ -8,21 +8,16 @@ Refer to the https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/readme.txt f
 Step 2: place the code and build.sbt under /home/"user"/src/main/scala
 
 
-
 Step 3: 
 
 In the same path /src/main/scala 
-
 Compile package using:
 sbt package
 
 Step 4:
 
 run using :
-
-
 spark-submit --class "WeatherStats" --master yarn --conf spark.ui.port=12567 /home/eanbuselvi1/project/project/src/main/scala/target/scala-2.10/retail_2.10-1.0.jar /dataset/AUS_STATIONS.csv /dataset/IATA.csv /dataset/2017.csv
-
 
 
 Step 5:
