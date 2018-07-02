@@ -187,7 +187,7 @@ import scala.math.{Pi, cos}
 						}
 						val Temperature:Double = if (hr <10) Temp(TMAX,TMIN) else Temp2(TMAX,TMIN)
 
-						val temp1 = Temperature/2
+						val temp1 = Temperature/10
 						return "%.2f".format(temp1).toDouble
 
 				}
